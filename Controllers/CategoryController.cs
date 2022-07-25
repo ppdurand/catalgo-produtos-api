@@ -17,4 +17,16 @@ public class CategoryController : ControllerBase
     {
         return "Criar categoria";
     }
+
+    [HttpDelete]
+    public string DeleteCatgeory(int Id)
+    {
+        return "Deletando categoria";
+    }
+
+    [HttpPut]
+    public string UpdateCategory()
+    {
+        return "Atualizar categoria";
+    }
 }
